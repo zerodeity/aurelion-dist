@@ -1,19 +1,41 @@
-# AURELION — prebuilt binaries
+# AURELION
 
-Public distribution for [AURELION](https://github.com/zerodeity/AURELION) (source is private).
-Each release holds one tarball per target plus `sha256sums.txt`.
+A lightning-fast AI coding agent for your terminal.
 
-## Install (macOS + Linux)
+## Install
+
+macOS and Linux:
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/zerodeity/aurelion-dist/main/install.sh | sh
 ```
 
-Targets: `macos-arm64`, `macos-x64`, `linux-x64`, `linux-arm64`.
+The `aurelion` binary installs to `~/.local/bin` (no `sudo`). Supported platforms:
 
-## Update / uninstall (once installed)
+| OS    | Architectures                       |
+| ----- | ----------------------------------- |
+| macOS | Apple Silicon (arm64), Intel (x64)  |
+| Linux | x64, arm64                          |
+
+## Update
 
 ```sh
-aurelion update            # self-update to the latest release (--check to just look)
-aurelion uninstall --deep  # remove the binary + all config/data/caches
+aurelion update          # install the latest version
+aurelion update --check  # check whether a newer version is available
 ```
+
+## Uninstall
+
+```sh
+aurelion uninstall         # remove the binary
+aurelion uninstall --deep  # also remove config, data, and caches
+```
+
+## Verifying downloads
+
+Every release ships a `sha256sums.txt`. The installer verifies each download
+against it before installing, and so does `aurelion update`.
+
+---
+
+AURELION — created with ❤ by ZERO PRIME.
