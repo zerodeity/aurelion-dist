@@ -75,7 +75,9 @@ elif command -v shasum >/dev/null 2>&1; then
 else
   die "a sha256 tool (sha256sum or shasum) is required."
 fi
-[ -n "$os" ] && [ -n "$arch" ] || die "unsupported platform: $os_raw/$arch_raw"
+if [ -z "$os" ] || [ -z "$arch" ]; then
+  die "unsupported platform: $os_raw/$arch_raw"
+fi
 asset="aurelion-${os}-${arch}.tar.gz"
 info "${OK} platform   ${BOLD}${os}-${arch}${RST}"
 
@@ -140,6 +142,7 @@ esac
 printf '\n  %s%sAURELION %s installed.%s\n\n' "$BOLD" "$GREEN" "$tag" "$RST"
 if [ -n "$pathprof" ]; then
   printf '  %sAdded %s to your PATH in %s.%s\n' "$DIM" "$INSTALL_DIR" "$pathprof" "$RST"
+  # shellcheck disable=SC2016 # $PATH is printed literally, for the user to copy.
   printf '  %sRestart your shell, or run:%s export PATH="%s:$PATH"\n\n' "$DIM" "$RST" "$INSTALL_DIR"
 fi
 printf '  %sActivate%s   aurelion activate <key>\n' "$BOLD" "$RST"
