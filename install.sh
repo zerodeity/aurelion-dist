@@ -7,6 +7,8 @@
 # Env:
 #   AURELION_VERSION=vX.Y.Z    pin a version/tag (default: latest, incl. betas)
 #   AURELION_INSTALL_DIR=DIR   install location (default: ~/.local/bin)
+#   AURELION_REQUIRE_SIGNATURE=1  refuse to install without minisign to check
+#                              the release signature
 #   NO_COLOR=1                 plain output, no styling
 set -eu
 
@@ -99,6 +101,26 @@ trap 'rm -rf "$tmp"' EXIT
 printf '\n%s  downloading %s%s\n' "$DIM" "$asset" "$RST"
 download "$base/$asset" "$tmp/$asset" || die "download failed."
 curl -fsSL "$base/sha256sums.txt" -o "$tmp/sha256sums.txt" || die "could not fetch checksums."
+
+# ---- signature ----
+# A release's sha256sums.txt is minisign-signed with AURELION's release key,
+# the key `aurelion update` pins (crates/aurelion/src/update/signature.rs),
+# and the signature's trusted comment names the release tag. With minisign
+# installed both are checked; without it only the checksum below is.
+PUBKEY="RWTYDrAGVq6o7mUSXgXddDuctD0V0t/mDm6EqcH8OStUBPTFkvsRzAeu"
+if command -v minisign >/dev/null 2>&1; then
+  curl -fsSL "$base/sha256sums.txt.minisig" -o "$tmp/sha256sums.txt.minisig" ||
+    die "could not fetch the checksums' signature."
+  sig_out=$(minisign -V -P "$PUBKEY" -m "$tmp/sha256sums.txt" -x "$tmp/sha256sums.txt.minisig" 2>&1) ||
+    die "the checksums are not signed with AURELION's release key."
+  signed_tag=$(printf '%s\n' "$sig_out" | sed -n 's/^Trusted comment: //p' | awk '{ print $NF }')
+  [ "$signed_tag" = "tag:$tag" ] || die "the signed checksums belong to another release (${signed_tag:-none}), not $tag."
+  info "${OK} signature  verified"
+elif [ "${AURELION_REQUIRE_SIGNATURE:-}" = 1 ]; then
+  die "AURELION_REQUIRE_SIGNATURE=1, but minisign is not installed."
+else
+  info "${DIM}- signature  not checked (install minisign to check it)${RST}"
+fi
 
 # ---- verify ----
 want=$(awk -v a="$asset" '$2 == a { print $1 }' "$tmp/sha256sums.txt")
