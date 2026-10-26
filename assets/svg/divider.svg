@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="24" viewBox="0 0 1280 24" role="img" aria-labelledby="dv-title">
+<title id="dv-title">Section divider</title>
+<style>
+.dv-glint { animation: dv-glint 6s ease-in-out infinite; }
+.dv-pulse { animation: dv-pulse 2.4s ease-in-out infinite; }
+@keyframes dv-glint { from { transform: translateX(0px); } to { transform: translateX(1400px); } }
+@keyframes dv-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+</style>
+<defs>
+  <pattern id="dv-ticks" width="16" height="24" patternUnits="userSpaceOnUse">
+    <path d="M.5 9V15" stroke="#3A2A0E"/>
+  </pattern>
+  <linearGradient id="dv-line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFB300" stop-opacity=".15"/>
+    <stop offset=".5" stop-color="#FFB300" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#FFB300" stop-opacity=".15"/>
+  </linearGradient>
+  <linearGradient id="dv-shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE68F" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#FFE68F" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#FFE68F" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="dv-clip">
+    <rect x="40" y="0" width="1200" height="24"/>
+  </clipPath>
+</defs>
+<rect width="1280" height="24" fill="#070502"/>
+<rect x="40" y="0" width="1200" height="24" fill="url(#dv-ticks)"/>
+<rect x="40" y="11.5" width="1200" height="1" fill="url(#dv-line)"/>
+<g clip-path="url(#dv-clip)">
+  <rect class="dv-glint" x="-120" y="11" width="120" height="2" fill="url(#dv-shine)"/>
+</g>
+<path d="M30 6H24V18H30M1250 6H1256V18H1250" fill="none" stroke="#FFB300" stroke-width="2"/>
+<path class="dv-pulse" d="M640 6L646 12L640 18L634 12Z" fill="#FFB300"/>
+<path d="M610 12H626M654 12H670" stroke="#FFB300" stroke-width="2"/>
+</svg>

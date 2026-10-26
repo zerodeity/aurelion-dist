@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="cap-cockpit" width="1408" height="846" viewBox="0 0 1408 846" role="img" aria-labelledby="cap-cockpit-title" xml:space="preserve" data-cols="160" data-rows="44" data-cell-width="8.4" data-cell-height="17">
+<title id="cap-cockpit-title">The cockpit layout</title>
+<style>
+#cap-cockpit text { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 14px; white-space: pre; font-variant-ligatures: none; }
+#cap-cockpit .cap-label { font-size: 11px; letter-spacing: 3px; fill: #9c7c48; }
+</style>
+<defs><linearGradient id="cap-cockpit-strip" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb300" stop-opacity=".10"/><stop offset=".7" stop-color="#ffb300" stop-opacity="0"/></linearGradient></defs>
+<rect width="1408" height="846" fill="#070502"/>
+<rect x="20.5" y="20.5" width="1367" height="805" fill="#120d04" stroke="#3a2a0e"/>
+<rect x="21" y="21" width="1366" height="33" fill="url(#cap-cockpit-strip)"/>
+<path d="M20 54.5H1388" stroke="#3a2a0e"/>
+<text class="cap-label" x="32" y="41"><tspan fill="#ffb300">◢</tspan> THE COCKPIT LAYOUT</text>
+<text class="cap-label" x="1376" y="41" text-anchor="end"><tspan fill="#ff5a3c">◉</tspan> AURELION · 160×44</text>
+<rect x="32" y="66" width="1344" height="748" fill="#070502"/>
+<g shape-rendering="crispEdges">
+<rect data-cell="" x="90.8" y="66" width="75.6" height="17" fill="#281d08"/>
+<rect data-cell="" x="90.8" y="100" width="50.4" height="17" fill="#1c1507"/>
+<rect data-cell="" x="174.8" y="100" width="75.6" height="17" fill="#1c1507"/>
+<rect data-cell="" x="813.2" y="100" width="126" height="17" fill="#1c1507"/>
+<rect data-cell="" x="90.8" y="117" width="117.6" height="17" fill="#1c1507"/>
+<rect data-cell="" x="527.6" y="117" width="210" height="17" fill="#1c1507"/>
+<rect data-cell="" x="1006.4" y="117" width="361.2" height="17" fill="#1c1507"/>
+<rect data-cell="" x="90.8" y="253" width="898.8" height="17" fill="#120d04"/>
+<rect data-cell="" x="90.8" y="270" width="898.8" height="17" fill="#120d04"/>
+<rect data-cell="" x="90.8" y="287" width="898.8" height="17" fill="#120d04"/>
+<rect data-cell="" x="32" y="338" width="50.4" height="17" fill="#281d08"/>
+<rect data-cell="" x="32" y="355" width="50.4" height="17" fill="#281d08"/>
+<rect data-cell="" x="32" y="372" width="50.4" height="17" fill="#281d08"/>
+<rect data-cell="" x="124.4" y="440" width="327.6" height="17" fill="#2e1008"/>
+<rect data-cell="" x="174.8" y="627" width="126" height="17" fill="#1c1507"/>
+<rect data-cell="" x="334.4" y="627" width="176.4" height="17" fill="#1c1507"/>
+<rect data-cell="" x="544.4" y="627" width="117.6" height="17" fill="#1c1507"/>
+<rect data-cell="" x="712.4" y="627" width="100.8" height="17" fill="#1c1507"/>
+<rect data-cell="" x="32" y="797" width="42" height="17" fill="#1c1507"/>
+<rect data-cell="" x="82.4" y="797" width="159.6" height="17" fill="#f8dfac"/>
+</g>
+<text data-cell="" x="48.8" y="79" fill="#9c7c48">❯</text>
+<text data-cell="" x="82.4" y="79" fill="#3a2a0e">│</text>
+<text data-cell="" x="99.2 107.6 116 124.4 132.8 141.2 149.6" y="79" fill="#ffb300" font-weight="700">F2 main</text>
+<text data-cell="" x="174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8" y="79" fill="#9c7c48">F3 thinking</text>
+<text data-cell="" x="284 292.4 300.8 309.2 317.6 326 334.4 342.8" y="79" fill="#9c7c48">F4 tools</text>
+<text data-cell="" x="368 376.4 384.8 393.2 401.6 410 418.4" y="79" fill="#9c7c48">F8 flow</text>
+<text data-cell="" x="956 964.4 972.8" y="79" fill="#9c7c48">end</text>
+<text data-cell="" x="989.6" y="79" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4 1014.8 1023.2" y="79" fill="#ffb300" font-weight="700">Ctx</text>
+<text data-cell="" x="40.4 48.8 57.2 65.6" y="96" fill="#9c7c48">chat</text>
+<text data-cell="" x="82.4" y="96" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="96" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="113" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788 796.4 804.8 813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956" y="113" fill="#f8dfac">Thrust in flight.go now clamps the throttle to 0..100 before multiplying, and the new TestThrustClamp in</text>
+<text data-cell="" x="989.6" y="113" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4 1014.8 1023.2 1031.6 1040 1048.4" y="113" fill="#9c7c48">window</text>
+<text data-cell="" x="1065.2 1073.6 1082 1090.4 1098.8" y="113" fill="#f8dfac" font-weight="700">27.0k</text>
+<text data-cell="" x="1115.6 1124 1132.4 1140.8 1149.2 1157.6 1166 1174.4" y="113" fill="#9c7c48">/ 822.0k</text>
+<text data-cell="" x="1350.8 1359.2" y="113" fill="#f8dfac" font-weight="700">3%</text>
+<text data-cell="" x="82.4" y="130" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746" y="130" fill="#f8dfac">flight_test.go passes along with the existing test (go test -count=1 -v ./...).</text>
+<text data-cell="" x="989.6" y="130" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4" y="130" fill="#ffe68f">█</text>
+<text data-cell="" x="48.8" y="147" fill="#9c7c48">?</text>
+<text data-cell="" x="82.4" y="147" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="147" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4 1014.8 1023.2 1031.6 1040 1048.4 1056.8 1065.2" y="147" fill="#9c7c48">■ system</text>
+<text data-cell="" x="1325.6 1334 1342.4 1350.8 1359.2" y="147" fill="#f8dfac">≈5.7k</text>
+<text data-cell="" x="32 40.4 48.8 57.2 65.6" y="164" fill="#9c7c48">inbox</text>
+<text data-cell="" x="82.4" y="164" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6 998 1006.4" y="164" fill="#3a2a0e">│ ■</text>
+<text data-cell="" x="1023.2 1031.6 1040 1048.4 1056.8" y="164" fill="#9c7c48">tools</text>
+<text data-cell="" x="1317.2 1325.6 1334 1342.4 1350.8 1359.2" y="164" fill="#f8dfac">≈17.4k</text>
+<text data-cell="" x="82.4" y="181" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8" y="181" fill="#9c7c48">✓</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6" y="181" fill="#f8dfac" font-weight="700">Verify</text>
+<text data-cell="" x="174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6" y="181" fill="#9c7c48">go test ./...</text>
+<text data-cell="" x="922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="181" fill="#9c7c48">1/1 0.1s</text>
+<text data-cell="" x="989.6" y="181" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4" y="181" fill="#ffb300">■</text>
+<text data-cell="" x="1023.2 1031.6 1040 1048.4 1056.8 1065.2 1073.6 1082 1090.4 1098.8 1107.2 1115.6 1124 1132.4 1140.8 1149.2 1157.6 1166 1174.4 1182.8 1191.2" y="181" fill="#9c7c48">pins · facts · memory</text>
+<text data-cell="" x="1342.4 1350.8 1359.2" y="181" fill="#f8dfac">≈74</text>
+<text data-cell="" x="82.4" y="198" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788" y="198" fill="#9c7c48" font-style="italic">DONE only when this passes · a failing check is fed back to the worker, not to you</text>
+<text data-cell="" x="989.6" y="198" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4" y="198" fill="#f8dfac">■</text>
+<text data-cell="" x="1023.2 1031.6 1040 1048.4 1056.8 1065.2 1073.6" y="198" fill="#9c7c48">history</text>
+<text data-cell="" x="1325.6 1334 1342.4 1350.8 1359.2" y="198" fill="#f8dfac">≈3.0k</text>
+<text data-cell="" x="48.8" y="215" fill="#9c7c48">⇉</text>
+<text data-cell="" x="82.4" y="215" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="215" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4" y="215" fill="#ffe68f">■</text>
+<text data-cell="" x="1023.2 1031.6 1040 1048.4 1056.8" y="215" fill="#9c7c48">files</text>
+<text data-cell="" x="1334 1342.4 1350.8 1359.2" y="215" fill="#f8dfac">≈812</text>
+<text data-cell="" x="40.4 48.8 57.2 65.6" y="232" fill="#9c7c48">work</text>
+<text data-cell="" x="82.4" y="232" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578" y="232" fill="#9c7c48">· approval: all — every tool call that isn't read-only asks</text>
+<text data-cell="" x="989.6" y="232" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="249" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="249" fill="#3a2a0e">│</text>
+<text data-cell="" x="1006.4 1014.8 1023.2 1031.6 1040 1048.4 1056.8 1065.2 1073.6 1082 1090.4 1098.8 1107.2 1115.6 1124 1132.4 1140.8 1149.2 1157.6 1166 1174.4 1182.8 1191.2 1199.6 1208 1216.4 1224.8 1233.2 1241.6 1250 1258.4 1266.8 1275.2 1283.6 1292 1300.4 1308.8 1317.2 1325.6 1334" y="249" fill="#9c7c48">session in 256.9k · out 2.3k · cache 80%</text>
+<text data-cell="" x="82.4" y="266" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8" y="266" fill="#ffb300" font-weight="700">❯</text>
+<text data-cell="" x="107.6 116 124.4" y="266" fill="#f8dfac" font-weight="700">you</text>
+<text data-cell="" x="989.6" y="266" fill="#3a2a0e">│</text>
+<text data-cell="" x="48.8" y="283" fill="#9c7c48">±</text>
+<text data-cell="" x="82.4" y="283" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788 796.4 804.8 813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6" y="283" fill="#f8dfac">Rename TestThrustClamp to TestThrustClampsRange, then run go vet ./... once. Answer in one short</text>
+<text data-cell="" x="989.6" y="283" fill="#3a2a0e">│</text>
+<text data-cell="" x="40.4 48.8 57.2 65.6" y="300" fill="#9c7c48">diff</text>
+<text data-cell="" x="82.4" y="300" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8" y="300" fill="#f8dfac">sentence.</text>
+<text data-cell="" x="989.6" y="300" fill="#3a2a0e">│</text>
+<text data-cell="" x="48.8" y="317" fill="#f8dfac">2</text>
+<text data-cell="" x="82.4" y="317" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="317" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="334" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8" y="334" fill="#9c7c48">⌁ recalled 1 memory ·</text>
+<text data-cell="" x="275.6" y="334" fill="#ffb300">m</text>
+<text data-cell="" x="292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368" y="334" fill="#9c7c48">shows them</text>
+<text data-cell="" x="989.6" y="334" fill="#3a2a0e">│</text>
+<text data-cell="" x="48.8" y="351" fill="#ffb300" font-weight="700">▮</text>
+<text data-cell="" x="82.4" y="351" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="351" fill="#3a2a0e">│</text>
+<text data-cell="" x="40.4 48.8 57.2" y="368" fill="#f8dfac">ctx</text>
+<text data-cell="" x="82.4" y="368" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242" y="368" fill="#9c7c48">⟲ snapshot · turn 2</text>
+<text data-cell="" x="897.2" y="368" fill="#ffb300">u</text>
+<text data-cell="" x="914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="368" fill="#9c7c48">undo turn</text>
+<text data-cell="" x="989.6" y="368" fill="#3a2a0e">│</text>
+<text data-cell="" x="48.8" y="385" fill="#9c7c48">3</text>
+<text data-cell="" x="82.4" y="385" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="385" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="402" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8" y="402" fill="#ffb300">◆</text>
+<text data-cell="" x="107.6" y="402" fill="#3a2a0e">→</text>
+<text data-cell="" x="124.4" y="402" fill="#9c7c48">⚙</text>
+<text data-cell="" x="141.2 149.6 158 166.4" y="402" fill="#f8dfac" font-weight="700">Edit</text>
+<text data-cell="" x="695.6 704" y="402" fill="#ffe68f">+1</text>
+<text data-cell="" x="720.8 729.2" y="402" fill="#ff5a3c">−1</text>
+<text data-cell="" x="746" y="402" fill="#9c7c48">·</text>
+<text data-cell="" x="762.8 771.2 779.6 788 796.4" y="402" fill="#ffb300">enter</text>
+<text data-cell="" x="813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="402" fill="#9c7c48">reviews → · ✓ 145ms ▸</text>
+<text data-cell="" x="989.6" y="402" fill="#3a2a0e">│</text>
+<text data-cell="" x="48.8" y="419" fill="#9c7c48">⏲</text>
+<text data-cell="" x="82.4" y="419" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4" y="419" fill="#9c7c48" font-style="italic">why · Rename the clamp test.</text>
+<text data-cell="" x="989.6" y="419" fill="#3a2a0e">│</text>
+<text data-cell="" x="40.4 48.8 57.2 65.6" y="436" fill="#9c7c48">jobs</text>
+<text data-cell="" x="82.4" y="436" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6" y="436" fill="#3a2a0e">⇢</text>
+<text data-cell="" x="124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6" y="436" fill="#9c7c48">flight_test.go</text>
+<text data-cell="" x="947.6 956 964.4 972.8 981.2" y="436" fill="#9c7c48">146 B</text>
+<text data-cell="" x="989.6" y="436" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="453" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6" y="453" fill="#3a2a0e">⇠</text>
+<text data-cell="" x="132.8" y="453" fill="#ff5a3c" font-weight="700">−</text>
+<text data-cell="" x="149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6" y="453" fill="#ff5a3c">func TestThrustClamp(t *testing.T) {</text>
+<text data-cell="" x="712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788 796.4 804.8 813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="453" fill="#9c7c48">9 lines · 172 B · enter to expand</text>
+<text data-cell="" x="989.6" y="453" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="470" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="470" fill="#3a2a0e">│</text>
+<text data-cell="" x="48.8" y="487" fill="#9c7c48">●</text>
+<text data-cell="" x="82.4" y="487" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8" y="487" fill="#9c7c48">· verify: tests 1 passed · mutation no rust sources</text>
+<text data-cell="" x="989.6" y="487" fill="#3a2a0e">│</text>
+<text data-cell="" x="40.4 48.8 57.2" y="504" fill="#9c7c48">mcp</text>
+<text data-cell="" x="82.4" y="504" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="504" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="521" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8" y="521" fill="#ffb300">◆</text>
+<text data-cell="" x="107.6" y="521" fill="#3a2a0e">→</text>
+<text data-cell="" x="124.4" y="521" fill="#9c7c48">⚙</text>
+<text data-cell="" x="141.2 149.6 158 166.4" y="521" fill="#f8dfac" font-weight="700">Bash</text>
+<text data-cell="" x="914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="521" fill="#9c7c48">✓ 541ms ▸</text>
+<text data-cell="" x="989.6" y="521" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="538" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2" y="538" fill="#9c7c48" font-style="italic">why · Run go vet once as requested.</text>
+<text data-cell="" x="989.6" y="538" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="555" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6" y="555" fill="#3a2a0e">⇢</text>
+<text data-cell="" x="124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2" y="555" fill="#9c7c48">go vet ./... 2&gt;&amp;1; echo "exit=$?"</text>
+<text data-cell="" x="956 964.4 972.8 981.2" y="555" fill="#9c7c48">93 B</text>
+<text data-cell="" x="989.6" y="555" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="572" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6" y="572" fill="#3a2a0e">⇠</text>
+<text data-cell="" x="124.4 132.8 141.2 149.6 158 166.4" y="572" fill="#9c7c48">exit=0</text>
+<text data-cell="" x="888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="572" fill="#9c7c48">1 line · 7 B</text>
+<text data-cell="" x="989.6" y="572" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="589" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="589" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="606" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6" y="606" fill="#9c7c48">· verify V3: SOUND</text>
+<text data-cell="" x="989.6" y="606" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="623" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="623" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="640" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788 796.4 804.8 813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6" y="640" fill="#f8dfac">I renamed TestThrustClamp to TestThrustClampsRange in flight_test.go, and go vet ./... ran once with no</text>
+<text data-cell="" x="989.6" y="640" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="657" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8" y="657" fill="#f8dfac">issues (exit 0).</text>
+<text data-cell="" x="989.6" y="657" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="674" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="674" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="691" fill="#3a2a0e">│</text>
+<text data-cell="" x="989.6" y="691" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="708" fill="#3a2a0e">│</text>
+<text data-cell="" x="90.8" y="708" fill="#9c7c48">✓</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6" y="708" fill="#f8dfac" font-weight="700">Verify</text>
+<text data-cell="" x="174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6" y="708" fill="#9c7c48">go test ./...</text>
+<text data-cell="" x="922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="708" fill="#9c7c48">1/1 0.1s</text>
+<text data-cell="" x="989.6" y="708" fill="#3a2a0e">│</text>
+<text data-cell="" x="82.4" y="725" fill="#3a2a0e">│</text>
+<text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788" y="725" fill="#9c7c48" font-style="italic">DONE only when this passes · a failing check is fed back to the worker, not to you</text>
+<text data-cell="" x="989.6" y="725" fill="#3a2a0e">│</text>
+<text data-cell="" x="32 40.4 48.8 57.2 65.6 74 82.4 90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788 796.4 804.8 813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2 989.6 998 1006.4 1014.8 1023.2 1031.6 1040 1048.4 1056.8 1065.2 1073.6 1082 1090.4 1098.8 1107.2 1115.6 1124 1132.4 1140.8 1149.2 1157.6 1166 1174.4 1182.8 1191.2 1199.6 1208 1216.4 1224.8 1233.2 1241.6 1250 1258.4 1266.8 1275.2 1283.6 1292 1300.4 1308.8 1317.2 1325.6 1334 1342.4 1350.8 1359.2 1367.6" y="759" fill="#3a2a0e">┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐</text>
+<text data-cell="" x="32" y="776" fill="#3a2a0e">│</text>
+<text data-cell="" x="40.4" y="776" fill="#ffb300" font-weight="700">❯</text>
+<text data-cell="" x="57.2 65.6 74 82.4 90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2" y="776" fill="#9c7c48">what should we build?</text>
+<text data-cell="" x="1367.6" y="776" fill="#3a2a0e">│</text>
+<text data-cell="" x="32 40.4 48.8 57.2 65.6 74 82.4 90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4 342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8 561.2 569.6 578 586.4 594.8 603.2 611.6 620 628.4 636.8 645.2 653.6 662 670.4 678.8 687.2 695.6 704 712.4 720.8 729.2 737.6 746 754.4 762.8 771.2 779.6 788 796.4 804.8 813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2 989.6 998 1006.4 1014.8 1023.2 1031.6 1040 1048.4 1056.8 1065.2 1073.6 1082 1090.4 1098.8 1107.2 1115.6 1124 1132.4 1140.8 1149.2 1157.6 1166 1174.4 1182.8 1191.2 1199.6 1208 1216.4 1224.8 1233.2 1241.6 1250 1258.4 1266.8 1275.2 1283.6 1292 1300.4 1308.8 1317.2 1325.6 1334 1342.4 1350.8 1359.2 1367.6" y="793" fill="#3a2a0e">└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘</text>
+<text data-cell="" x="40.4 48.8 57.2" y="810" fill="#f8dfac" font-weight="700">ASK</text>
+<text data-cell="" x="90.8 99.2 107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2" y="810" fill="#070502" font-weight="700">✓ VERIFIED 1m ago</text>
+<text data-cell="" x="250.4" y="810" fill="#3a2a0e">│</text>
+<text data-cell="" x="267.2 275.6 284 292.4 300.8 309.2" y="810" fill="#9c7c48">⎇ main</text>
+<text data-cell="" x="326" y="810" fill="#3a2a0e">│</text>
+<text data-cell="" x="342.8 351.2 359.6 368 376.4 384.8 393.2 401.6 410 418.4 426.8 435.2 443.6 452 460.4 468.8 477.2 485.6 494 502.4 510.8 519.2 527.6 536 544.4 552.8" y="810" fill="#9c7c48">/private/tmp/hangar/x-wing</text>
+<text data-cell="" x="569.6" y="810" fill="#3a2a0e">│</text>
+<text data-cell="" x="586.4 594.8 603.2 611.6 620" y="810" fill="#9c7c48">$0.34</text>
+<text data-cell="" x="636.8" y="810" fill="#3a2a0e">│</text>
+<text data-cell="" x="653.6" y="810" fill="#9c7c48">⟲</text>
+<text data-cell="" x="670.4" y="810" fill="#ffb300">u</text>
+<text data-cell="" x="989.6 998 1006.4" y="810" fill="#ffb300">tab</text>
+<text data-cell="" x="1023.2 1031.6 1040 1048.4 1056.8 1065.2 1073.6" y="810" fill="#9c7c48">focus ·</text>
+<text data-cell="" x="1090.4" y="810" fill="#ffb300">/</text>
+<text data-cell="" x="1107.2 1115.6 1124 1132.4 1140.8 1149.2" y="810" fill="#9c7c48">cmds ·</text>
+<text data-cell="" x="1166" y="810" fill="#ffb300">@</text>
+<text data-cell="" x="1182.8 1191.2 1199.6 1208 1216.4 1224.8 1233.2" y="810" fill="#9c7c48">files ·</text>
+<text data-cell="" x="1250" y="810" fill="#ffb300">!</text>
+<text data-cell="" x="1266.8 1275.2 1283.6 1292 1300.4 1308.8" y="810" fill="#9c7c48">bash ·</text>
+<text data-cell="" x="1325.6" y="810" fill="#ffb300">?</text>
+<text data-cell="" x="1342.4 1350.8 1359.2 1367.6" y="810" fill="#9c7c48">keys</text>
+<path d="M20 46V20H46 M1362 20H1388V46 M20 800V826H46 M1362 826H1388V800" fill="none" stroke="#ffb300" stroke-width="3"/>
+</svg>

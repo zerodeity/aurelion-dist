@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="zp-title zp-desc">
+<title id="zp-title">Zero Prime: architecting autonomous intelligence for the post-human era</title>
+<desc id="zp-desc">An amber operator display. ZERO PRIME, @ZERODEITY · OPERATOR, the line "Architecting autonomous intelligence for the post-human era.", and the readout STATUS ONLINE · PROJECTS 01 · FLAGSHIP AURELION, beside a targeting reticle.</desc>
+<style>
+text { font-family: "SF Mono", Menlo, Consolas, monospace; }
+.zp-name { font-size: 74px; font-weight: 700; letter-spacing: 20px; fill: #FFB300; }
+.zp-handle { font-size: 15px; letter-spacing: 6px; fill: #9C7C48; }
+.zp-bio { font-size: 19px; fill: #FFE68F; }
+.zp-stat { font-size: 13px; letter-spacing: 3px; fill: #9C7C48; }
+.zp-val { fill: #FFB300; font-weight: 700; }
+.zp-label { font-size: 11px; letter-spacing: 4px; fill: #9C7C48; }
+.zp-halo { paint-order: stroke fill; stroke: #070502; stroke-width: 6px; stroke-linejoin: round; }
+
+.zp-flicker { animation: zp-flicker 8s infinite; }
+.zp-spin { transform-origin: 0px 0px; animation: zp-spin 60s linear infinite; }
+.zp-spin-back { transform-origin: 0px 0px; animation: zp-spin 110s linear infinite reverse; }
+.zp-arcs { transform-origin: 0px 0px; animation: zp-spin 18s linear infinite; }
+.zp-arcs-back { transform-origin: 0px 0px; animation: zp-spin 30s linear infinite reverse; }
+.zp-radar { transform-origin: 0px 0px; animation: zp-spin 5s linear infinite; }
+/* The bio is always painted: a bright read head sweeps over it, so a
+   frame where the motion has not started still shows the whole line. */
+.zp-head { animation: zp-head 7s cubic-bezier(.45, 0, .55, 1) .5s infinite; }
+.zp-head-bar { animation: zp-head-bar 7s cubic-bezier(.45, 0, .55, 1) .5s infinite; }
+.zp-cursor { animation: zp-blink 1s steps(1, end) infinite; }
+.zp-pulse { animation: zp-pulse 2s ease-in-out infinite; }
+.zp-sweep { animation: zp-sweep 7s linear infinite; }
+
+@keyframes zp-spin { to { transform: rotate(360deg); } }
+@keyframes zp-flicker { 0%, 93%, 100% { opacity: 1; } 94% { opacity: .6; } 95% { opacity: 1; } 97% { opacity: .8; } 98% { opacity: 1; } }
+@keyframes zp-head { 0% { transform: translateX(0px); } 38%, 100% { transform: translateX(900px); } }
+@keyframes zp-head-bar { 0% { transform: translateX(0px); opacity: 0; } 3%, 35% { opacity: .8; } 38%, 100% { transform: translateX(900px); opacity: 0; } }
+@keyframes zp-blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+@keyframes zp-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+@keyframes zp-sweep { from { transform: translateY(0px); } to { transform: translateY(400px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+</style>
+<defs>
+  <radialGradient id="zp-glow" cx="22%" cy="40%" r="70%">
+    <stop offset="0" stop-color="#1C1507"/>
+    <stop offset=".45" stop-color="#120D04"/>
+    <stop offset="1" stop-color="#070502"/>
+  </radialGradient>
+  <radialGradient id="zp-vignette" cx="50%" cy="50%" r="75%">
+    <stop offset=".5" stop-color="#070502" stop-opacity="0"/>
+    <stop offset="1" stop-color="#070502" stop-opacity=".9"/>
+  </radialGradient>
+  <pattern id="zp-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 .5H.5V40" fill="none" stroke="#3A2A0E" stroke-width="1"/>
+  </pattern>
+  <pattern id="zp-scan" width="4" height="3" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#FFB300" fill-opacity=".045"/>
+  </pattern>
+  <linearGradient id="zp-band" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFB300" stop-opacity="0"/>
+    <stop offset=".88" stop-color="#FFB300" stop-opacity=".06"/>
+    <stop offset="1" stop-color="#FFE68F" stop-opacity=".28"/>
+  </linearGradient>
+  <linearGradient id="zp-wedge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFB300" stop-opacity="0"/>
+    <stop offset="1" stop-color="#FFB300" stop-opacity=".24"/>
+  </linearGradient>
+  <linearGradient id="zp-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFB300" stop-opacity=".9"/>
+    <stop offset=".6" stop-color="#FFB300" stop-opacity=".25"/>
+    <stop offset="1" stop-color="#FFB300" stop-opacity="0"/>
+  </linearGradient>
+  <!-- The read head: a soft window that starts left of the bio and ends
+       right of it, so at rest it lights nothing. -->
+  <linearGradient id="zp-head-fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".75" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="zp-head-mask" maskUnits="userSpaceOnUse" x="0" y="192" width="1280" height="48">
+    <rect class="zp-head" x="-110" y="192" width="150" height="48" fill="url(#zp-head-fade)"/>
+  </mask>
+  <filter id="zp-bloom" x="-10%" y="-80%" width="120%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="near"/>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="far"/>
+    <feMerge>
+      <feMergeNode in="far"/>
+      <feMergeNode in="near"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <filter id="zp-soft" x="-10%" y="-100%" width="120%" height="300%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+    <feMerge>
+      <feMergeNode in="b"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<rect width="1280" height="300" fill="#070502"/>
+<rect width="1280" height="300" fill="url(#zp-glow)"/>
+<rect width="1280" height="300" fill="url(#zp-grid)" opacity=".4"/>
+<rect width="1280" height="300" fill="url(#zp-vignette)"/>
+
+<!-- The reticle. -->
+<g transform="translate(1046 150)" fill="none">
+  <g class="zp-radar">
+    <path d="M0 0V-84A84 84 0 0 1 54 -64.3Z" fill="url(#zp-wedge)"/>
+    <path d="M0 0L54 -64.3" stroke="#FFB300" stroke-opacity=".45"/>
+  </g>
+  <circle r="86" stroke="#3A2A0E"/>
+  <circle r="40" stroke="#3A2A0E"/>
+  <g class="zp-spin-back">
+    <circle r="100" stroke="#FFB300" stroke-opacity=".36" stroke-width="8" stroke-dasharray="1.2 9.27"/>
+    <circle r="100" stroke="#FFB300" stroke-opacity=".7" stroke-width="13" stroke-dasharray="1.6 50.76"/>
+  </g>
+  <g class="zp-spin">
+    <circle r="112" stroke="#FFB300" stroke-opacity=".32" stroke-dasharray="3 8"/>
+  </g>
+  <g class="zp-arcs">
+    <circle r="122" stroke="#FFB300" stroke-opacity=".6" stroke-width="2" stroke-dasharray="85.2 170.4"/>
+  </g>
+  <g class="zp-arcs-back">
+    <circle r="62" stroke="#FFB300" stroke-opacity=".5" stroke-width="2" stroke-dasharray="48.7 16.2"/>
+  </g>
+  <path d="M-130 0H-96M96 0H130M0 -130V-96M0 96V130" stroke="#FFB300" stroke-opacity=".5"/>
+  <path d="M-16 0H-6M6 0H16M0 -16V-6M0 6V16" stroke="#FFB300" stroke-width="2"/>
+  <circle class="zp-pulse" r="3" fill="#FF5A3C"/>
+</g>
+
+<!-- The operator. -->
+<text class="zp-label" x="64" y="62">◢ OPERATOR PROFILE</text>
+<g class="zp-flicker" filter="url(#zp-bloom)">
+  <text class="zp-name" x="60" y="138">ZERO PRIME</text>
+</g>
+<text class="zp-handle" x="64" y="176">@ZERODEITY · OPERATOR</text>
+<text class="zp-bio zp-halo" x="64" y="222">Architecting autonomous intelligence for the post-human era.<tspan class="zp-cursor" fill="#FFB300">▌</tspan></text>
+<g mask="url(#zp-head-mask)" aria-hidden="true">
+  <rect x="56" y="201" width="720" height="28" fill="#FFB300" fill-opacity=".16"/>
+  <g filter="url(#zp-bloom)">
+    <text class="zp-bio" x="64" y="222">Architecting autonomous intelligence for the post-human era.</text>
+  </g>
+</g>
+<rect class="zp-head-bar" x="38" y="203" width="2" height="26" fill="#FFE68F" opacity="0"/>
+<rect x="64" y="240" width="660" height="1" fill="url(#zp-rule)"/>
+<g filter="url(#zp-soft)">
+  <text class="zp-stat" x="64" y="266">STATUS <tspan class="zp-val zp-pulse">ONLINE</tspan> · PROJECTS <tspan class="zp-val">01</tspan> · FLAGSHIP <tspan class="zp-val">AURELION</tspan></text>
+</g>
+
+<!-- Frame and corner brackets. -->
+<rect x="16.5" y="16.5" width="1247" height="267" fill="none" stroke="#3A2A0E"/>
+<path d="M16 54V16H54M1226 16H1264V54M16 246V284H54M1226 284H1264V246" fill="none" stroke="#FFB300" stroke-width="3"/>
+
+<rect width="1280" height="300" fill="url(#zp-scan)"/>
+<rect class="zp-sweep" y="-100" width="1280" height="100" fill="url(#zp-band)"/>
+</svg>
