@@ -254,6 +254,6 @@ shasum -a 256 -c sha256sums.txt --ignore-missing   # Linux: sha256sum -c sha256s
 <p align="center"><img src="assets/svg/divider.svg" width="100%" alt=""></p>
 
 <p align="center">
-  <b>Created with ❤ by <a href="https://github.com/zerodeity">Zero Prime</a></b><br>
+  <b>Created by <a href="https://github.com/zerodeity">Zero Prime</a></b><br>
   <sub>Architecting autonomous intelligence for the post-human era.</sub>
 </p>

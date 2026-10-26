@@ -25,7 +25,7 @@ The stream is the conversation, top to bottom. It shows:
 
 - **Your prompts**, under `❯ you`.
 - **The agent's answers**, as formatted Markdown.
-- **Tool rows.** Each call reads sender, arrow, tool: `◆ → ⚙ Edit`. Under it, an italic `why ·` line says why the call was made. `⇢` shows what went in and `⇠` what came back. At the right end: `+n −m` for an edit, the state (a spinner while it runs, `awaiting approval` while it waits for you, then `✓` or `✗`), the time it took and `▸`. `Enter` or a click opens the full output.
+- **Tool rows.** Each call reads sender, arrow, tool: `◆ → ⚙︎ Edit`. Under it, an italic `why ·` line says why the call was made. `⇢` shows what went in and `⇠` what came back. At the right end: `+n −m` for an edit, the state (a spinner while it runs, `awaiting approval` while it waits for you, then `✓` or `✗`), the time it took and `▸`. `Enter` or a click opens the full output.
 - **MCP tools** read `⬡ server.tool`, and a subagent spawned with `task` reads `⇉`.
 - **The snapshot row**, `⟲ snapshot · turn 2`, where a turn that edits begins. `u` puts that turn back. See [Undo and review](undo-and-review.md).
 - **The recall row**, `⌁ recalled 1 memory · m shows them`, when the turn drew on memory, facts or pins.
@@ -113,7 +113,7 @@ In every layout a card that waits for you stays on screen.
 - **A map** of who talks to whom: you, AURELION, the model and the tools. Each exchange travels along its line as it happens.
 - **Readouts**: tokens per second, bytes per second, how full the context is, and how often each tool ran.
 - **A timeline** of the session, with marks where edits and approvals happened.
-- **An event log**, one row per exchange: `+06:46 ◆ AURELION → ⚙ Bash go vet ./...`.
+- **An event log**, one row per exchange: `+06:46 ◆ AURELION → ⚙︎ Bash go vet ./...`.
 
 The header names the provider. When idle, the view shows the last turn's numbers.
 

@@ -130,7 +130,7 @@
 <text data-cell="" x="82.4" y="402" fill="#3a2a0e">│</text>
 <text data-cell="" x="90.8" y="402" fill="#ffb300">◆</text>
 <text data-cell="" x="107.6" y="402" fill="#3a2a0e">→</text>
-<text data-cell="" x="124.4" y="402" fill="#9c7c48">⚙</text>
+<text data-cell="" x="124.4" y="402" fill="#9c7c48">⚙︎</text>
 <text data-cell="" x="141.2 149.6 158 166.4" y="402" fill="#f8dfac" font-weight="700">Edit</text>
 <text data-cell="" x="695.6 704" y="402" fill="#ffe68f">+1</text>
 <text data-cell="" x="720.8 729.2" y="402" fill="#ff5a3c">−1</text>
@@ -138,7 +138,7 @@
 <text data-cell="" x="762.8 771.2 779.6 788 796.4" y="402" fill="#ffb300">enter</text>
 <text data-cell="" x="813.2 821.6 830 838.4 846.8 855.2 863.6 872 880.4 888.8 897.2 905.6 914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="402" fill="#9c7c48">reviews → · ✓ 145ms ▸</text>
 <text data-cell="" x="989.6" y="402" fill="#3a2a0e">│</text>
-<text data-cell="" x="48.8" y="419" fill="#9c7c48">⏲</text>
+<text data-cell="" x="48.8" y="419" fill="#9c7c48">⏲︎</text>
 <text data-cell="" x="82.4" y="419" fill="#3a2a0e">│</text>
 <text data-cell="" x="107.6 116 124.4 132.8 141.2 149.6 158 166.4 174.8 183.2 191.6 200 208.4 216.8 225.2 233.6 242 250.4 258.8 267.2 275.6 284 292.4 300.8 309.2 317.6 326 334.4" y="419" fill="#9c7c48" font-style="italic">why · Rename the clamp test.</text>
 <text data-cell="" x="989.6" y="419" fill="#3a2a0e">│</text>
@@ -166,7 +166,7 @@
 <text data-cell="" x="82.4" y="521" fill="#3a2a0e">│</text>
 <text data-cell="" x="90.8" y="521" fill="#ffb300">◆</text>
 <text data-cell="" x="107.6" y="521" fill="#3a2a0e">→</text>
-<text data-cell="" x="124.4" y="521" fill="#9c7c48">⚙</text>
+<text data-cell="" x="124.4" y="521" fill="#9c7c48">⚙︎</text>
 <text data-cell="" x="141.2 149.6 158 166.4" y="521" fill="#f8dfac" font-weight="700">Bash</text>
 <text data-cell="" x="914 922.4 930.8 939.2 947.6 956 964.4 972.8 981.2" y="521" fill="#9c7c48">✓ 541ms ▸</text>
 <text data-cell="" x="989.6" y="521" fill="#3a2a0e">│</text>
