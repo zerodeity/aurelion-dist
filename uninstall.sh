@@ -20,17 +20,33 @@ if [ -f "$INSTALL_DIR/aurelion" ]; then
 fi
 
 # Drop the installer's two-line PATH block (the marker and the line after it).
-for prof in "$HOME/.zshrc" "$HOME/.bashrc" "$HOME/.profile"; do
+for prof in "$HOME/.zshrc" "$HOME/.bashrc" "$HOME/.bash_profile" "$HOME/.profile"; do
   [ -f "$prof" ] || continue
   if grep -qF "$MARKER" "$prof" 2>/dev/null; then
-    tmp="$(mktemp)"
-    awk -v m="$MARKER" '
-      index($0, m) { skip = 1; next }
-      skip         { skip = 0; next }
-      { print }
-    ' "$prof" > "$tmp"
-    mv "$tmp" "$prof"
-    echo "removed PATH line from $prof"
+    # Edit the file a symlinked dotfile points to, so the link stays a
+    # link: a copy beside it (`cp -p` keeps its mode) takes the new text,
+    # then replaces it in one rename, so a failure never leaves it cut short.
+    target="$prof"
+    while [ -L "$target" ]; do
+      link="$(readlink "$target")"
+      case "$link" in
+        /*) target="$link" ;;
+        *) target="$(dirname "$target")/$link" ;;
+      esac
+    done
+    staged="$target.aurelion-uninstall.$$"
+    if cp -p "$target" "$staged" 2>/dev/null &&
+      awk -v m="$MARKER" '
+        index($0, m) { skip = 1; next }
+        skip         { skip = 0; next }
+        { print }
+      ' "$target" > "$staged" &&
+      mv -f "$staged" "$target"; then
+      echo "removed PATH line from $prof"
+    else
+      rm -f "$staged"
+      echo "could not edit $prof: remove the line after \"$MARKER\" and that line by hand" >&2
+    fi
   fi
 done
 
