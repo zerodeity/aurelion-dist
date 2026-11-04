@@ -214,6 +214,12 @@ main() {
   printf '  %sActivate%s   aurelion activate <key>\n' "$BOLD" "$RST"
   printf '  %sRun%s        aurelion\n' "$BOLD" "$RST"
   printf '  %sUpgrade%s    aurelion update\n\n' "$BOLD" "$RST"
+
+  # ---- computer use ----
+  # What desktop control needs here and what is missing, with the fix.
+  # Read-only: nothing is installed or granted. Never fails the install.
+  "$INSTALL_DIR/aurelion" doctor --desktop 2>/dev/null | sed 's/^/  /' || true
+  printf '\n'
 }
 
 main "$@"
